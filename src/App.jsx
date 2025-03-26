@@ -9,9 +9,12 @@ function App() {
   const featuredPup = puppies.find((pup)=> pup.id === featPupId)
 
   return (
+    
     <div className="App">
+      <h1>Puppy Pall</h1>
       {featPupId && (
         <div>
+          
           <h2>{featuredPup.name}</h2>
           <ul>
             <li>Age: {featuredPup.age}</li>
