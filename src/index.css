@@ -28,9 +28,11 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: aqua;
 }
 
 h1 {
+  color: blue;
   font-size: 3.2em;
   line-height: 1.1;
 }
@@ -66,3 +68,34 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+h2 {
+ font-family: fantasy;
+ color: #222ce6;
+ font-size: 30px;
+}
+
+ul {
+  font-family: fantasy;
+  color: #4a53f9;
+  font-size: 20px;
+  text-align-last: left;
+ }
+
+ p {
+  background-color: #ecf774;
+}
+
+p:hover {
+  background-color: #f7ba74;
+  color: #242424;
+}
+
+div.App {
+  background-color: #74f7f3;
+  padding: 25px;
+}
+
+
+
+
